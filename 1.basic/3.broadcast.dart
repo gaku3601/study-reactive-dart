@@ -1,6 +1,6 @@
 import 'dart:async';
 
-StreamController<String> controller = StreamController.broadcast();
+StreamController<String> controller = StreamController<String>.broadcast();
 
 void main() {
   // listenさせます(購読する)
